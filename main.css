@@ -78,7 +78,7 @@
 
       }
 
-      @media (max-width: 767px) {
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
 
           .parallax1,
           .parallax2,
@@ -87,23 +87,32 @@
               background-attachment: scroll;
           }
 
-          #TurnTablevideo {
-              display: none;
-          }
+          @media (max-width: 767px) {
 
-          #Baybridge {
-              display: none;
-          }
+              .parallax1,
+              .parallax2,
+              .parallax3,
+              .parallax4 {
+                  background-attachment: scroll;
+              }
 
-          .parallax1 {
-              background-image: url(img/turntabletruntable.png);
+              #TurnTablevideo {
+                  display: none;
+              }
 
-          }
+              #Baybridge {
+                  display: none;
+              }
 
-          .parallax4 {
-              background-image: url(img/baybridgecrop.png);
-              min-height: 100%;
+              .parallax1 {
+                  background-image: url(img/turntabletruntable.png);
 
+              }
+
+              .parallax4 {
+                  background-image: url(img/baybridgecrop.png);
+                  min-height: 100%;
+
+              }
           }
       }
-  }
