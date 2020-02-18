@@ -21,14 +21,14 @@
   }
 
   .parallax2 {
-      background-image: url(img/polkaDotslights.png);
+      background: url(img/polkaDotslights.png);
       height: 532px;
       width: 100%;
       position: relative;
   }
 
   .parallax3 {
-      background-image: url(img/bart.jpg);
+      background: url(img/bart.jpg);
       height: 532px;
       width: 100%;
       position: relative;
