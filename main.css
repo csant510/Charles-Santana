@@ -62,6 +62,25 @@
   }
 
   /* 4. Responsiveness */
+  @media only screen and (max-width: 959px) {
+      .parallax2 {
+          background-image: url(img/polkaDotslights.png);
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+
+      .parallax3 {
+          background-image: url(img/bart.jpg);
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+  }
+
+
   @media screen and (max-width: 799px) {
 
       .parallax2 {
