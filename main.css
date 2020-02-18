@@ -58,19 +58,9 @@
   }
 
   /* 4. Responsiveness */
-
-
-
-
-
   @media screen and (max-width: 799px) {
 
-      .parallax1,
-      .parallax2,
-      .parallax3,
-      .parallax4 {
-          background-attachment: scroll;
-      }
+
 
       #TurnTablevideo {
           width: 100%;
@@ -84,6 +74,14 @@
       }
 
       @media (max-width: 767px) {
+
+          .parallax1,
+          .parallax2,
+          .parallax3,
+          .parallax4 {
+              background-attachment: scroll;
+          }
+
           #TurnTablevideo {
               display: none;
           }
@@ -100,8 +98,6 @@
           .parallax4 {
               background-image: url(img/baybridgecrop.png);
               min-height: 100%;
-
-
 
           }
       }
