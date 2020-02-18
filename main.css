@@ -64,7 +64,7 @@
   /* 4. Responsiveness */
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
       .parallax2 {
-          background-image: url(img/polkaDotslights.png);
+          background: url(img/polkaDotslights.png);
           top: 0;
           left: 0;
           width: 100%;
@@ -72,7 +72,7 @@
       }
 
       .parallax3 {
-          background-image: url(img/bart.jpg);
+          background: url(img/bart.jpg);
           top: 0;
           left: 0;
           width: 100%;
@@ -82,7 +82,7 @@
 
   @media only screen and (max-width: 959px) {
       .parallax2 {
-          background-image: url(img/polkaDotslights.png);
+          background: url(img/polkaDotslights.png);
           top: 0;
           left: 0;
           width: 100%;
@@ -90,7 +90,7 @@
       }
 
       .parallax3 {
-          background-image: url(img/bart.jpg);
+          background: url(img/bart.jpg);
           top: 0;
           left: 0;
           width: 100%;
