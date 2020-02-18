@@ -23,6 +23,7 @@
   .parallax2 {
       background: url(img/polkaDotslights.png);
       min-height: 80%;
+      width: 100%;
   }
 
   .parallax3 {
@@ -64,6 +65,18 @@
 
 
   @media screen and (max-width: 799px) {
+
+      .parallax1,
+      .parallax2,
+      .parallax3,
+      .parallax4 {
+          position: relative;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+      }
+
       #TurnTablevideo {
           width: 100%;
           height: auto;
