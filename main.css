@@ -23,11 +23,15 @@
   .parallax2 {
       background-image: url(img/polkaDotslights.png);
       min-height: 100%;
+      width: 100%;
+      height: auto;
   }
 
   .parallax3 {
       background-image: url(img/bart.jpg);
       min-height: 100%;
+      width: 100%;
+      height: auto;
   }
 
   .parallax4 {
