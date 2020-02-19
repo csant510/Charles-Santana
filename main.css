@@ -24,15 +24,10 @@ a {
     min-height: 100%;
 }
 
-.parallax1,
-.parallax2,
-.parallax3,
-.parallax4 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.baybridgevideo .TurnTablevideo {
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
 
 
@@ -67,10 +62,7 @@ a {
 
 
 
-#Video {
 
-    z-index: -1;
-}
 
 
 
@@ -93,19 +85,9 @@ a {
 
     @media screen and (max-width: 799px) {
 
-        #TurnTablevideo {
-            width: 100%;
-            height: auto;
-        }
-
-        #Baybridge {
-            width: 100%;
-            height: auto;
-
-        }
 
         @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-            .parallax2 {
+            .parallax1 {
                 background: url(img/polkaDotslights.png);
                 width: 100%;
                 height: auto;
@@ -114,7 +96,7 @@ a {
 
             }
 
-            .parallax3 {
+            .parallax2 {
                 background: url(img/bart.jpg);
                 width: 100%;
                 height: auto;
@@ -140,11 +122,11 @@ a {
                     background-attachment: scroll;
                 }
 
-                #TurnTablevideo {
+                .baybridgevideo {
                     display: none;
                 }
 
-                #Baybridge {
+                .baybridgevideo {
                     display: none;
                 }
 
@@ -154,7 +136,7 @@ a {
                 }
 
                 .parallax4 {
-                    background-image: url(img/baybridgecrop.png);
+                    background-image: url(img/baybridge.png);
                     min-height: 100%;
 
                 }
