@@ -1,143 +1,104 @@
-/* 1. Base */
-body,
-html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 160%;
-    text-align: center;
+  /* 1. Base */
+  body,
+  html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      line-height: 160%;
+      text-align: center;
 
-}
+  }
 
-a {
-    color: currentColor;
-    cursor: pointer;
-    text-decoration: none;
-}
+  a {
+      color: currentColor;
+      cursor: pointer;
+      text-decoration: none;
+  }
 
-/* 2. Shared */
+  /* 2. Shared */
+  .parallax1 {
+      min-height: 100%;
+  }
 
-.MotionGraphic {
-    min-height: 100%;
-}
+  .parallax2 {
+      background: url(img/polkaDotslights.png);
+      min-height: 100%;
+  }
 
-.baybridgevideo .TurnTablevideo {
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
+  .parallax3 {
+      background: url(img/bart.jpg);
+      min-height: 100%;
+  }
 
+  .parallax4 {
+      min-height: 100%;
 
+  }
 
-/* 3. Specific */
+  /* 3. Specific */
+  #TurnTablevideo {
 
-.parallax1 {
-    background: url(img/polkaDotslights.png);
-    height: 532px;
+      z-index: -1;
+  }
 
+  #Baybridge {
 
-}
+      z-index: -1;
+  }
 
-.parallax2 {
-    background: url(img/bart.jpg);
-    height: 532px;
+  .parallax1,
+  .parallax2,
+  .parallax3,
+  .parallax4 {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
 
-
-}
-
-.parallax1,
-.parallax2,
-.parallax3,
-.parallax4 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-
-
-
-
-
-
-/* 4. Responsiveness */
-
-@media only screen and (max-device-width: 1366px) {
-
-    .parallax1,
-    .parallax2,
-    .parallax3,
-    .parallax4 {
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-    }
+  /* 4. Responsiveness */
+  @media screen and (max-width: 799px) {
 
 
 
-    @media screen and (max-width: 799px) {
+      #TurnTablevideo {
+          width: 100%;
+          height: auto;
+      }
 
+      #Baybridge {
+          width: 100%;
+          height: auto;
 
-        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-            .parallax1 {
-                background: url(img/polkaDotslights.png);
-                width: 100%;
-                height: auto;
-                background-repeat: no-repeat;
-                background-attachment: scroll;
+      }
 
-            }
+      @media (max-width: 767px) {
 
-            .parallax2 {
-                background: url(img/bart.jpg);
-                width: 100%;
-                height: auto;
-                background-repeat: no-repeat;
-                background-attachment: scroll;
+          .parallax1,
+          .parallax2,
+          .parallax3,
+          .parallax4 {
+              background-attachment: scroll;
+          }
 
-            }
+          #TurnTablevideo {
+              display: none;
+          }
 
+          #Baybridge {
+              display: none;
+          }
 
-            .parallax1,
-            .parallax2,
-            .parallax3,
-            .parallax4 {
-                background-attachment: scroll;
-            }
+          .parallax1 {
+              background-image: url(img/turntabletruntable.png);
 
-            @media (max-width: 767px) {
+          }
 
-                .parallax1,
-                .parallax2,
-                .parallax3,
-                .parallax4 {
-                    background-attachment: scroll;
-                }
+          .parallax4 {
+              background-image: url(img/baybridgecrop.png);
+              min-height: 100%;
 
-                .baybridgevideo {
-                    display: none;
-                }
-
-                .baybridgevideo {
-                    display: none;
-                }
-
-                .parallax1 {
-                    background-image: url(img/turntabletruntable.png);
-
-                }
-
-                .parallax4 {
-                    background-image: url(img/baybridge.png);
-                    min-height: 100%;
-
-                }
-            }
-        }
-    }
-}
+          }
+      }
+  }
