@@ -90,39 +90,25 @@
 
   }
 
-  @media screen and (max-width: 799px) {
+  @media (max-width: 767px) {
+
 
       #TurnTablevideo {
-          width: 100%;
-          height: auto;
+          display: none;
       }
 
       #Baybridge {
-          width: 100%;
-          height: auto;
+          display: none;
+      }
+
+      .parallax1 {
+          background-image: url(img/turntabletruntable.png);
 
       }
 
-      @media (max-width: 767px) {
+      .parallax4 {
+          background-image: url(img/baybridgecrop.png);
+          min-height: 100%;
 
-
-          #TurnTablevideo {
-              display: none;
-          }
-
-          #Baybridge {
-              display: none;
-          }
-
-          .parallax1 {
-              background-image: url(img/turntabletruntable.png);
-
-          }
-
-          .parallax4 {
-              background-image: url(img/baybridgecrop.png);
-              min-height: 100%;
-
-          }
       }
   }
