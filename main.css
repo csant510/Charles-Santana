@@ -79,7 +79,11 @@
           .parallax2,
           .parallax3,
           .parallax4 {
-              background-attachment: scroll;
+              position: relative;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
           }
       }
 
