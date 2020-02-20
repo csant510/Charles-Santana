@@ -81,7 +81,7 @@
           .parallax4 {
               position: relative;
               background-position: center;
-              background-size: cover;
+              background-size: auto;
               background-repeat: no-repeat;
               background-attachment: fixed;
           }
