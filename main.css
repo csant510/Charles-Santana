@@ -58,55 +58,41 @@
   }
 
   /* 4. Responsiveness */
-  @media screen and (max-width: 799px) {
 
+  @media only screen and (max-device-width: 1366px) {
+
+      .parallax1,
+      .parallax2,
+      .parallax3,
+      .parallax4 {
+          position: relative;
+          background-position: center;
+          background-size: auto;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+  }
+
+  @media (max-width: 767px) {
 
 
       #TurnTablevideo {
-          width: 100%;
-          height: auto;
+          display: none;
       }
 
       #Baybridge {
-          width: 100%;
-          height: auto;
+          display: none;
+      }
+
+      .parallax1 {
+          background-image: url(img/turntabletruntable.png);
 
       }
 
-      @media only screen and (max-device-width: 1366px) {
+      .parallax4 {
+          background-image: url(img/baybridgecrop.png);
+          min-height: 100%;
 
-          .parallax1,
-          .parallax2,
-          .parallax3,
-          .parallax4 {
-              position: relative;
-              background-position: center;
-              background-size: auto;
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-          }
       }
-
-      @media (max-width: 767px) {
-
-
-          #TurnTablevideo {
-              display: none;
-          }
-
-          #Baybridge {
-              display: none;
-          }
-
-          .parallax1 {
-              background-image: url(img/turntabletruntable.png);
-
-          }
-
-          .parallax4 {
-              background-image: url(img/baybridgecrop.png);
-              min-height: 100%;
-
-          }
-      }
+  }
   }
