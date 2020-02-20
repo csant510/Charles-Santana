@@ -73,7 +73,7 @@
 
       }
 
-      @media (max-width: 767px) {
+      @media only screen and (max-device-width: 1366px) {
 
           .parallax1,
           .parallax2,
@@ -81,6 +81,10 @@
           .parallax4 {
               background-attachment: scroll;
           }
+      }
+
+      @media (max-width: 767px) {
+
 
           #TurnTablevideo {
               display: none;
