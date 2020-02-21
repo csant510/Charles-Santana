@@ -16,18 +16,22 @@
   }
 
   /* 2. Shared */
+
+
   .parallax1 {
       min-height: 100%;
   }
 
+
+
   .parallax2 {
       background: url(img/polkaDotslights.png);
-      min-height: 100%;
+      height: 532px;
   }
 
   .parallax3 {
       background: url(img/bart.jpg);
-      min-height: 100%;
+      height: 532px;
   }
 
   .parallax4 {
@@ -36,15 +40,25 @@
   }
 
   /* 3. Specific */
-  .parallax1 {
-      background: url(img/polkaDotslights.png);
-      height: 532px;
+  .section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
   }
 
   #TurnTablevideo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100;
 
-      z-index: -1;
   }
+
+
 
   #Baybridge {
 
@@ -63,6 +77,12 @@
   }
 
   /* 4. Responsiveness */
+  @media (min-aspect-ratio: 16/9) {
+      TurnTablevideo {
+          width: 100%;
+          height: auto;
+      }
+  }
 
   @media only screen and (max-device-width: 1366px) {
       .parallax2 {
