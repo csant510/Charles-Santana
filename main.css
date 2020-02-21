@@ -3,7 +3,8 @@
   html {
       height: 100%;
       margin: 0;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Lato', 'Ubuntu',
+          sans-serif;
       line-height: 160%;
       text-align: center;
 
@@ -14,6 +15,12 @@
       cursor: pointer;
       text-decoration: none;
   }
+
+  h1 h2 h3 h4 h5 h6 {
+      font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+
 
   /* 2. Shared */
 
@@ -40,6 +47,14 @@
   }
 
   /* 3. Specific */
+
+
+  #Baybridge {
+
+      z-index: -1;
+  }
+
+
   .section {
       position: relative;
       width: 100%;
@@ -50,6 +65,26 @@
       overflow: hidden;
   }
 
+  #intro {
+      top: 0;
+      text-align: right;
+      font: bold;
+      font-family: Lato-BoldItalic;
+      font-size: 2em;
+      line-height: 110%;
+      color: white;
+      z-index: 1;
+      align-self: flex-start;
+      left: 0;
+      top: 0;
+      padding-top: 20px;
+      padding-left: 30px;
+      position: absolute;
+
+  }
+
+
+
   #TurnTablevideo {
       position: absolute;
       top: 0;
@@ -59,11 +94,6 @@
   }
 
 
-
-  #Baybridge {
-
-      z-index: -1;
-  }
 
   .parallax1,
   .parallax2,
@@ -77,12 +107,7 @@
   }
 
   /* 4. Responsiveness */
-  @media (min-aspect-ratio: 16/9) {
-      TurnTablevideo {
-          width: 100%;
-          height: auto;
-      }
-  }
+
 
   @media only screen and (max-device-width: 1366px) {
       .parallax2 {
@@ -111,6 +136,7 @@
   }
 
   @media (max-width: 767px) {
+
 
 
       #TurnTablevideo {
