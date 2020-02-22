@@ -5,10 +5,17 @@
       margin: 0;
       font-family: 'Lato', 'Ubuntu',
           sans-serif;
-      line-height: 160%;
       text-align: center;
-
+      font-size: 16px;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+      min-height: 100vh;
+      min-width: 300px;
+      overflow-x: hidden;
+      text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
+
 
   a {
       color: currentColor;
@@ -51,6 +58,7 @@
       font-weight: 400;
       line-height: 30px;
   }
+
 
   pre {
       font-family: Georgia, Times, "Times New Roman", serif;
@@ -95,9 +103,8 @@
 
   /* 3. Specific */
   .about {
-      max-width: 26rem;
-      text-align: center;
-      justify-content: left center;
+      flex-grow: 1;
+      flex-shrink: 1;
   }
 
 
@@ -108,9 +115,14 @@
 
   .content {
       display: flex;
+      align-items: center;
+      justify-content: center;
       position: relative;
       min-height: 60vh;
-      padding-left: 80px;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+
   }
 
   .footer {
@@ -133,11 +145,6 @@
       color: white;
       z-index: 1;
       align-self: flex-start;
-      left: 0;
-      top: 0;
-      padding-top: 20px;
-      padding-left: 0px;
-      position: absolute;
 
   }
 
@@ -157,12 +164,6 @@
 
   }
 
-  .side {
-      max-height: 20rem;
-      max-width: 20rem;
-  }
-
-
   .section {
       position: relative;
       width: 100%;
@@ -171,21 +172,33 @@
       overflow: hidden;
   }
 
+  .side {
+      flex-grow: 0;
+      flex-shrink: 0;
+      height: 20rem;
+      margin-right: 4rem;
+      order: 0;
+      width: 20rem;
+      padding-left: 3em;
+  }
+
+
+
+
+
   #about_p {
       word-wrap: break-word;
       text-align: left;
-      height: 386;
-      width: 1040px;
+
       font-family: Lato-Regular;
-      font-size: 1em;
+      font-size: 16pt;
+      font-stretch: expanded;
+
       color: #090909;
-      letter-spacing: 0;
-  }
+      letter-spacing: 1px;
+      max-width: 1040px;
 
-  #about_p h1 {
-      text-align: center;
   }
-
 
 
 
@@ -241,7 +254,17 @@
   }
 
   @media (max-width: 799px) {
+      .content {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 5rem 3rem;
+      }
 
+      .side {
+          margin-bottom: 3rem;
+          width: 100%;
+      }
 
       #TurnTablevideo {
           display: none;
