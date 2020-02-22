@@ -96,7 +96,10 @@
   /* 3. Specific */
   .about {
       max-width: 26rem;
+      text-align: center;
+      justify-content: left center;
   }
+
 
   #Baybridge {
 
@@ -108,6 +111,16 @@
       position: relative;
       min-height: 60vh;
       padding-left: 80px;
+  }
+
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 200%;
+      background-color: black;
+      color: black;
+      text-align: center;
   }
 
   #intro {
