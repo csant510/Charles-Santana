@@ -24,6 +24,12 @@
 
   /* 2. Shared */
 
+  .content {
+      display: flex;
+      position: relative;
+      min-height: 100%;
+  }
+
 
   .parallax1 {
       min-height: 100%;
@@ -54,6 +60,20 @@
       z-index: -1;
   }
 
+  .content {
+      display: flex;
+      position: relative;
+      min-height: 60vh;
+  }
+
+  .side {
+      max-height: 20rem;
+      max-width: 20rem;
+  }
+
+  .about {
+      max-width: 26rem;
+  }
 
   .section {
       position: relative;
@@ -135,8 +155,7 @@
 
   }
 
-  @media (max-width: 767px) {
-
+  @media (max-width: 799px) {
 
 
       #TurnTablevideo {
@@ -149,7 +168,7 @@
 
       .parallax1 {
           background-image: url(img/turntabletruntable.png);
-
+          min-height: 100%;
       }
 
       .parallax4 {
