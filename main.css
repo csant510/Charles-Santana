@@ -16,8 +16,49 @@
       text-decoration: none;
   }
 
-  h1 h2 h3 h4 h5 h6 {
-      font-family: Georgia, Times, 'Times New Roman', serif;
+  h1 {
+      font-family: Georgia;
+      font-size: 36px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 26.4px;
+  }
+
+  h3 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 15.4px;
+  }
+
+  p {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+  }
+
+  blockquote {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 21px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 30px;
+  }
+
+  pre {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 13px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 18.5714px;
   }
 
 
@@ -53,7 +94,9 @@
   }
 
   /* 3. Specific */
-
+  .about {
+      max-width: 26rem;
+  }
 
   #Baybridge {
 
@@ -64,25 +107,7 @@
       display: flex;
       position: relative;
       min-height: 60vh;
-  }
-
-  .side {
-      max-height: 20rem;
-      max-width: 20rem;
-  }
-
-  .about {
-      max-width: 26rem;
-  }
-
-  .section {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+      padding-left: 80px;
   }
 
   #intro {
@@ -102,6 +127,53 @@
       position: absolute;
 
   }
+
+  .picture {
+      position: left;
+      width: 100%;
+  }
+
+  .picture-shadow {
+      border-radius: 290486px;
+      background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
+      position: absolute;
+  }
+
+  .picture-image {
+      border-radius: 07301983px;
+
+  }
+
+  .side {
+      max-height: 20rem;
+      max-width: 20rem;
+  }
+
+
+  .section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      overflow: hidden;
+  }
+
+  #about_p {
+      word-wrap: break-word;
+      text-align: left;
+      height: 386;
+      width: 1040px;
+      font-family: Lato-Regular;
+      font-size: 1em;
+      color: #090909;
+      letter-spacing: 0;
+  }
+
+  #about_p h1 {
+      text-align: center;
+  }
+
+
 
 
 
