@@ -98,8 +98,17 @@
 
   .parallax4 {
       min-height: 100%;
+  }
+
+  .parallax5 {
+      background: url(img/shoes.png);
+      height: 532px;
+      opacity: 0.5;
 
   }
+
+
+
 
   /* 3. Specific */
   .about {
@@ -112,6 +121,39 @@
 
       z-index: -1;
   }
+
+  .contact {
+      text-align: start;
+      padding-left: 30px;
+
+  }
+
+  input[type=text],
+  select,
+  textarea {
+      width: 90%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+
+  input[type=submit] {
+      background-color: white;
+      color: white;
+      padding: 20px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: grey;
+  }
+
 
   .content {
       display: flex;
@@ -216,7 +258,8 @@
   .parallax1,
   .parallax2,
   .parallax3,
-  .parallax4 {
+  .parallax4,
+  .parallax5 {
       position: relative;
       background-position: center;
       background-size: cover;
@@ -240,10 +283,15 @@
 
       }
 
+      .parallax5 {
+          height: 532px;
+      }
+
       .parallax1,
       .parallax2,
       .parallax3,
-      .parallax4 {
+      .parallax4,
+      .parallax5 {
           position: relative;
           background-position: center;
           background-size: cover;
@@ -281,6 +329,11 @@
 
       .parallax4 {
           background-image: url(img/baybridgecrop.png);
+          min-height: 100%;
+
+      }
+
+      .parallax5 {
           min-height: 100%;
 
       }
