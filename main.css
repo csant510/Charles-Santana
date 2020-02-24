@@ -79,6 +79,10 @@
       min-height: 100%;
   }
 
+  .flip-card {
+      flex: 0 1 24%;
+  }
+
 
   .parallax1 {
       min-height: 100%;
@@ -106,6 +110,13 @@
       opacity: 0.5;
 
   }
+
+  .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
 
 
 
@@ -309,6 +320,10 @@
           padding: 5rem 3rem;
       }
 
+      .flip-card {
+          flex: 0 1 calc(25% - 1em);
+      }
+
       .side {
           margin-bottom: 3rem;
           width: 100%;
@@ -321,6 +336,14 @@
       #Baybridge {
           display: none;
       }
+
+      .projects {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 5rem 3rem;
+      }
+
 
       .parallax1 {
           background-image: url(img/turntabletruntable.png);
