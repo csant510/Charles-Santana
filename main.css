@@ -122,10 +122,6 @@
 
 
   /* 3. Specific */
-  .about {
-      flex-grow: 1;
-      flex-shrink: 1;
-  }
 
 
   #Baybridge {
@@ -313,6 +309,11 @@
   }
 
   @media (max-width: 799px) {
+      .about {
+          flex-grow: 1;
+          flex-shrink: 1;
+      }
+
       .content {
           flex-direction: column;
           justify-content: center;
