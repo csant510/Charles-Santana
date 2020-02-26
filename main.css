@@ -353,19 +353,11 @@
 
   @media (max-width: 799px) {
       .about {
-          flex-grow: 1;
+          flex-grow: 0;
           flex-shrink: 1;
       }
 
-      .intro {
-          padding-top: 10px;
-          padding-left: 10px;
-          text-align: right;
-          font: bold;
 
-          color: white;
-          z-index: 1;
-      }
 
       .intro p {
           font-family: Lato-BoldItalic;
@@ -385,11 +377,16 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 5rem 3rem;
+          padding: 3rem 2rem;
       }
 
       .flip-card {
-          flex: 0 1 calc(25% - 1em);
+          flex: 0 1;
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+
+
       }
 
       nav {
@@ -397,9 +394,15 @@
       }
 
       .side {
-          margin-bottom: 3rem;
-          width: 100%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          height: 20rem;
+          margin-right: 4rem;
+          order: 0;
+          width: 20rem;
+          padding-left: 3em;
       }
+
 
       #TurnTablevideo {
           display: none;
@@ -413,7 +416,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 5rem 3rem;
+
       }
 
 
