@@ -1,438 +1,438 @@
-  /* 1. Base */
-  body,
-  html {
-      height: 100%;
-      margin: 0;
-      font-family: 'Lato', 'Ubuntu',
-          sans-serif;
-      text-align: center;
-      font-size: 16px;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      line-height: 1.5;
-      min-height: 100vh;
-      min-width: 300px;
-      overflow-x: hidden;
-      text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  }
-
-
-  a {
-      color: currentColor;
-      cursor: pointer;
-      text-decoration: none;
-  }
-
-  h1 {
-      font-family: Georgia;
-      font-size: 36px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 700;
-      line-height: 26.4px;
-  }
-
-  h3 {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 14px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 700;
-      line-height: 15.4px;
-  }
-
-  p {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 14px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 400;
-      line-height: 20px;
-  }
-
-  blockquote {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 21px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 400;
-      line-height: 30px;
-  }
-
-
-  pre {
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 13px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 400;
-      line-height: 18.5714px;
-  }
-
-
-
-  /* 2. Shared */
-
-  .content {
-      display: flex;
-      position: relative;
-      min-height: 100%;
-  }
-
-  .flip-card {
-      flex: 0 1 24%;
-  }
-
-
-  .parallax1 {
-      min-height: 100%;
-  }
-
-
-
-  .parallax2 {
-      background: url(img/polkaDotslights.png);
-      height: 532px;
-  }
-
-  .parallax3 {
-      background: url(img/bart.jpg);
-      height: 532px;
-  }
-
-  .parallax4 {
-      min-height: 100%;
-  }
-
-  .parallax5 {
-      background: url(img/shoes.png);
-      height: 532px;
-      opacity: 0.5;
-
-  }
-
-  .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-  }
-
-
-
-
-
-  /* 3. Specific */
-
-
-  #Baybridge {
-
-      z-index: -1;
-  }
-
-  .contact {
-      text-align: start;
-      padding-left: 30px;
+/* 1. Base */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', 'Ubuntu',
+        sans-serif;
+    text-align: center;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    min-height: 100vh;
+    min-width: 300px;
+    overflow-x: hidden;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+a {
+    color: currentColor;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+pre {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+
+
+/* 2. Shared */
+
+.content {
+    display: flex;
+    position: relative;
+    min-height: 100%;
+}
+
+.flip-card {
+    flex: 0 1 24%;
+}
+
+
+.parallax1 {
+    min-height: 100%;
+}
+
+
+
+.parallax2 {
+    background: url(img/polkaDotslights.png);
+    height: 532px;
+}
+
+.parallax3 {
+    background: url(img/bart.jpg);
+    height: 532px;
+}
+
+.parallax4 {
+    min-height: 100%;
+}
+
+.parallax5 {
+    background: url(img/shoes.png);
+    height: 532px;
+    opacity: 0.5;
+
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+/* 3. Specific */
+
+
+#Baybridge {
+
+    z-index: -1;
+}
+
+.contact {
+    text-align: start;
+    padding-left: 30px;
 
-  }
+}
 
-  input[type=text],
-  select,
-  textarea {
-      width: 90%;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-  }
-
-  input[type=submit] {
-      background-color: white;
-      color: white;
-      padding: 20px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-      background-color: grey;
-  }
-
-
-  .content {
-      display: flex;
-      flex-wrap: wrap;
-      position: relative;
-      min-height: 40vh;
-      position: relative;
-      width: 90%;
-      overflow: hidden;
+input[type=text],
+select,
+textarea {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 40vh;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
 
-  }
+}
 
-  .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 200%;
-      background-color: black;
-      color: black;
-      text-align: center;
-  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200%;
+    background-color: black;
+    color: black;
+    text-align: center;
+}
 
 
-  .intro {
-      padding-top: 10px;
-      padding-left: 10px;
-      text-align: right;
-      font: bold;
+.intro {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: right;
+    font: bold;
 
-      color: white;
-      z-index: 1;
-  }
+    color: white;
+    z-index: 1;
+}
 
-  .intro p {
-      font-family: Lato-BoldItalic;
-      font-size: 2em;
-      line-height: 110%;
-  }
+.intro p {
+    font-family: Lato-BoldItalic;
+    font-size: 2em;
+    line-height: 110%;
+}
 
-  .intro #sig {
-      font-family: Satisfy,
-          Lato-BoldItalic;
-      font-size: 2em;
-      line-height: 110%;
-  }
+.intro #sig {
+    font-family: Satisfy,
+        Lato-BoldItalic;
+    font-size: 2em;
+    line-height: 110%;
+}
 
-  nav {
-      font-size: 2em;
-      z-index: 2;
-      padding-left: 100px;
-      padding-top: 300px;
-  }
+nav {
+    font-size: 2em;
+    z-index: 2;
+    padding-left: 100px;
+    padding-top: 300px;
+}
 
-  nav ul {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      overflow: hidden;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
 
-  }
+}
 
-  nav ul li a {
-      display: block;
-      color: white;
-      padding-inline-start: 60px;
-      padding-inline-end: 60px;
-  }
+nav ul li a {
+    display: block;
+    color: white;
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+}
 
 
 
 
-  .picture {
-      position: left;
-      width: 100%;
-  }
+.picture {
+    position: left;
+    width: 100%;
+}
 
-  .picture-shadow {
-      border-radius: 290486px;
-      background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
-      position: absolute;
-  }
+.picture-shadow {
+    border-radius: 290486px;
+    background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
+    position: absolute;
+}
 
-  .picture-image {
-      border-radius: 07301983px;
+.picture-image {
+    border-radius: 07301983px;
 
-  }
+}
 
-  .section {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      overflow: hidden;
-  }
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
 
-  .side {
-      flex-grow: 0;
-      flex-shrink: 0;
-      height: 20rem;
-      margin-right: 4rem;
-      order: 0;
-      width: 20rem;
-      padding-left: 3em;
-  }
+.side {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 20rem;
+    margin-right: 4rem;
+    order: 0;
+    width: 20rem;
+    padding-left: 3em;
+}
 
 
 
 
 
 
-  #about_p {
-      word-wrap: break-word;
-      text-align: left;
+#about_p {
+    word-wrap: break-word;
+    text-align: left;
 
-      font-family: Lato-Regular;
-      font-size: 16pt;
-      font-stretch: expanded;
+    font-family: Lato-Regular;
+    font-size: 16pt;
+    font-stretch: expanded;
 
-      color: #090909;
-      letter-spacing: 1px;
-      max-width: 1040px;
+    color: #090909;
+    letter-spacing: 1px;
+    max-width: 1040px;
 
-  }
+}
 
 
 
 
-  #TurnTablevideo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100;
+#TurnTablevideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
 
-  }
+}
 
 
 
-  .parallax1,
-  .parallax2,
-  .parallax3,
-  .parallax4,
-  .parallax5 {
-      position: relative;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-  }
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4,
+.parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-  /* 4. Responsiveness */
+/* 4. Responsiveness */
 
 
-  @media only screen and (max-device-width: 1366px) {
-      .parallax2 {
-          background: url(img/polkaDotslights.png);
-          height: 532px;
+@media only screen and (max-device-width: 1366px) {
+    .parallax2 {
+        background: url(img/polkaDotslights.png);
+        height: 532px;
 
-      }
+    }
 
-      .parallax3 {
-          background: url(img/bart.jpg);
-          height: 532px;
+    .parallax3 {
+        background: url(img/bart.jpg);
+        height: 532px;
 
-      }
+    }
 
-      .parallax5 {
-          height: 532px;
-      }
+    .parallax5 {
+        height: 532px;
+    }
 
-      .parallax1,
-      .parallax2,
-      .parallax3,
-      .parallax4,
-      .parallax5 {
-          position: relative;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-attachment: scroll;
-      }
+    .parallax1,
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax5 {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
 
-  }
+}
 
 
-  @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
-      nav {
-          display: none;
-      }
-  }
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+    nav {
+        display: none;
+    }
+}
 
-  @media (max-width: 799px) {
-      .about {
-          flex-grow: 0;
-          flex-shrink: 1;
-      }
+@media (max-width: 799px) {
+    .about {
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
 
 
 
-      .intro p {
-          font-family: Lato-BoldItalic;
-          font-size: 1em;
-          line-height: 110%;
-      }
+    .intro p {
+        font-family: Lato-BoldItalic;
+        font-size: 1em;
+        line-height: 110%;
+    }
 
-      .intro #sig {
-          font-family: Satisfy,
-              Lato-BoldItalic;
-          font-size: 1em;
-          line-height: 110%;
-      }
+    .intro #sig {
+        font-family: Satisfy,
+            Lato-BoldItalic;
+        font-size: 1em;
+        line-height: 110%;
+    }
 
 
-      .content {
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          padding: 3rem 2rem;
-      }
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 2rem;
+    }
 
-      .flip-card {
-          flex: 0 1;
-          padding: 10px;
-          justify-content: center;
-          align-items: center;
+    .flip-card {
+        flex: 0 1;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
 
 
-      }
+    }
 
-      nav {
-          display: none;
-      }
+    nav {
+        display: none;
+    }
 
-      .side {
-          flex-grow: 0;
-          flex-shrink: 0;
-          height: 20rem;
-          margin-right: 4rem;
-          order: 0;
-          width: 20rem;
-          padding-left: 3em;
-      }
+    .side {
+        flex-grow: 0;
+        flex-shrink: 0;
+        height: 20rem;
+        margin-right: 4rem;
+        order: 0;
+        width: 20rem;
+        padding-left: 3em;
+    }
 
 
-      #TurnTablevideo {
-          display: none;
-      }
+    #TurnTablevideo {
+        display: none;
+    }
 
-      #Baybridge {
-          display: none;
-      }
+    #Baybridge {
+        display: none;
+    }
 
-      .projects {
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+    .projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-      }
+    }
 
 
-      .parallax1 {
-          background-image: url(img/turntabletruntable.png);
-          min-height: 100%;
-      }
+    .parallax1 {
+        background-image: url(img/turntabletruntable.png);
+        min-height: 100%;
+    }
 
-      .parallax4 {
-          background-image: url(img/baybridgecrop.png);
-          min-height: 100%;
+    .parallax4 {
+        background-image: url(img/baybridgecrop.png);
+        min-height: 100%;
 
-      }
+    }
 
-      .parallax5 {
-          min-height: 100%;
+    .parallax5 {
+        min-height: 100%;
 
-      }
-  }
+    }
+}
