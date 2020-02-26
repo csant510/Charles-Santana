@@ -344,6 +344,13 @@
 
   }
 
+
+  @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+      nav {
+          display: none;
+      }
+  }
+
   @media (max-width: 799px) {
       .about {
           flex-grow: 1;
@@ -383,6 +390,10 @@
 
       .flip-card {
           flex: 0 1 calc(25% - 1em);
+      }
+
+      nav {
+          display: none;
       }
 
       .side {
