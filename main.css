@@ -14,6 +14,7 @@ html {
     min-width: 300px;
     overflow-x: hidden;
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    scroll-behavior: smooth;
 }
 
 
@@ -21,6 +22,11 @@ a {
     color: currentColor;
     cursor: pointer;
     text-decoration: none;
+
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.5)
 }
 
 h1 {
@@ -39,6 +45,10 @@ h3 {
     font-variant: normal;
     font-weight: 700;
     line-height: 15.4px;
+}
+
+hr.linenav {
+    border: 2px solid white;
 }
 
 p {
@@ -99,6 +109,7 @@ pre {
 .parallax3 {
     background: url(img/bart.jpg);
     height: 532px;
+
 }
 
 .parallax4 {
@@ -118,6 +129,26 @@ pre {
     justify-content: space-evenly;
 }
 
+.typewrite {
+    color: white;
+    font-family: 'Lato',
+        'Ubuntu',
+        sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2em;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 20px;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
 
 
 
@@ -135,6 +166,17 @@ pre {
     padding-left: 30px;
 
 }
+
+.fa-chevron-down {
+    position: absolute;
+    color: white;
+    font-size: 8em;
+    bottom: 0;
+    right: 750px;
+    z-index: 1;
+}
+
+
 
 input[type=text],
 select,
@@ -189,7 +231,9 @@ input[type=submit]:hover {
     padding-top: 10px;
     padding-left: 10px;
     text-align: right;
-    font: bold;
+    font-family: 'Lato',
+        'Ubuntu',
+        sans-serif;
 
     color: white;
     z-index: 1;
@@ -209,9 +253,13 @@ input[type=submit]:hover {
 }
 
 nav {
-    font-size: 2em;
+    font-family: Georgia,
+        Times,
+        "Times New Roman",
+        serif;
+    font-size: 3em;
     z-index: 2;
-    padding-left: 100px;
+    padding-left: 20px;
     padding-top: 300px;
 }
 
@@ -224,6 +272,7 @@ nav ul {
 }
 
 nav ul li a {
+
     display: block;
     color: white;
     padding-inline-start: 60px;
@@ -248,6 +297,7 @@ nav ul li a {
     border-radius: 07301983px;
 
 }
+
 
 .section {
     position: relative;
