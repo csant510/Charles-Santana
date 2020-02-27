@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: rgba(46, 49, 49, 0.5)
 }
 
 h1 {
@@ -129,6 +129,14 @@ pre {
     justify-content: space-evenly;
 }
 
+.typeeffect {
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+    left: 0;
+    z-index: 1;
+}
+
 .typewrite {
     color: white;
     font-family: 'Lato',
@@ -137,11 +145,6 @@ pre {
     cursor: pointer;
     text-decoration: none;
     font-size: 2em;
-    position: absolute;
-    bottom: 30px;
-    padding-left: 20px;
-    left: 0;
-    z-index: 1;
 }
 
 
@@ -167,13 +170,13 @@ pre {
 
 }
 
-.fa-chevron-down {
-    position: absolute;
+.bottom {
+    font-size: 10em;
     color: white;
-    font-size: 8em;
+    position: absolute;
     bottom: 0;
-    right: 750px;
-    z-index: 1;
+    right: 760px;
+    z-index: 2;
 }
 
 
