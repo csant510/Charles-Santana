@@ -1,3 +1,6 @@
+function uncheck() {
+    document.getElementById("myCheck").checked = false;
+}
 /*type writer effect */
 
 var TxtType = function (el, toRotate, period) {

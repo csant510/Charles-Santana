@@ -33,6 +33,7 @@
                     and learning a little more about me.<br>
                     <p id="sig">- Charles Santana </p>
                 </p>
+
             </div>
 
 
@@ -42,7 +43,9 @@
                 <ul>
                     <li><a href="#about">About</a></li>
 
-                    <li><a href="#news">Projects</a></li>
+                    <li><a href="#webprojects">Web Projects</a></li>
+
+                    <li><a href="#DesignProjects">Design Projects</a></li>
 
                     <li><a href="#contact">Contact</a></li>
 
@@ -50,10 +53,14 @@
                 <hr class="linenav">
             </nav>
             <!--Nav bar end-->
-
+            <div class="bottom">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
             <!--second nav bar-->
             <div class="menu-wrap">
-                <input type="checkbox" class="toggler">
+                <input type="checkbox" class="toggler" id="myCheck">
                 <div class="hamburger">
                     <div></div>
                 </div>
@@ -61,9 +68,10 @@
                     <div>
                         <div>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a onclick="uncheck()" href="#about">About</a></li>
+                                <li><a onclick="uncheck()" href="#webprojects">Web Projects</a></li>
+                                <li><a onclick="uncheck()" href="#DesignProjects">Design Projects</a></li>
+                                <li><a onclick="uncheck()" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -71,21 +79,14 @@
             </div>
 
             <!--second nav bar end-->
-            <div class="bottom">
-                <a href="#">
-                    <i class="fas fa-chevron-down"></i>
-                </a>
-            </div>
 
             <div class="typeeffect">
                 <p class="typewrite" data-period="2000"
-                    data-type='[ "Hi, Im Charles.", "I am a web developer.", "I Love Design.", "I Love to Code.","I love to figure things out." ]'>
+                    data-type='[ "Hi, I am Charles.", "I am a web developer.", "I Love Design.", "I Love to Code.","I Enjoy to figure things out." ]'>
                     <span class="wrap"></span>
                 </p>
 
             </div>
-
-
 
 
 
@@ -95,7 +96,10 @@
 
     </div>
     <br>
-    <h1 class="header">About</h1>
+    <a name="about">
+        <h1 class="header">About</h1>
+    </a>
+
     <br>
     <div class="content">
 
@@ -129,7 +133,11 @@
     <div class="parallax2">
     </div>
     <br>
-    <h1>Web Projects</h1>
+    <a name="webprojects">
+        <h1>Web Projects</h1>
+    </a>
+
+
     <br>
     <div class="projects">
 
@@ -187,7 +195,11 @@
     <div class="parallax3">
     </div>
     <br>
-    <h1>Visual Design Projects</h1>
+
+    <a name="DesignProjects">
+        <h1>Visual Design Projects</h1>
+    </a>
+
     <br>
     <div class="projects">
 
@@ -252,7 +264,13 @@
 
     </div>
     <br>
-    <h1>Contact</h1>
+
+    <a name="contact">
+        <h1 class="Contact">
+            Contact
+        </h1>
+    </a>
+
     <br>
     <div class="parallax5">
 

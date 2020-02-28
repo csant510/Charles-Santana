@@ -95,7 +95,9 @@ pre {
 
 
 .parallax1 {
-    min-height: 100%;
+    min-height: 40%;
+    background-color: black;
+
 
 }
 
@@ -131,10 +133,9 @@ pre {
 
 .typeeffect {
     position: absolute;
-    bottom: 40px;
-    padding-left: 20px;
-    left: 0;
-    z-index: 1;
+    bottom: 30px;
+    left: 16px;
+    z-index: 3;
 }
 
 .typewrite {
@@ -174,9 +175,10 @@ pre {
     font-size: 10em;
     color: white;
     position: absolute;
-    bottom: 0;
-    right: 760px;
-    z-index: 2;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 3;
 }
 
 
@@ -260,9 +262,11 @@ nav {
         Times,
         "Times New Roman",
         serif;
-    font-size: 3em;
+    font-size: 2em;
+    position: absolute;
     z-index: 2;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 400px;
     padding-top: 300px;
 }
 
@@ -346,7 +350,7 @@ nav ul li a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100;
+    width: 100%;
 
 }
 
@@ -366,8 +370,21 @@ nav ul li a {
 
 /* 4. Responsiveness */
 
+@media only screen and (max-device-width: 1485px) {
+    nav {
+        display: none;
+    }
+}
 
 @media only screen and (max-device-width: 1366px) {
+
+    #TurnTablevideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200vh;
+    }
+
     .parallax2 {
         background: url(img/polkaDotslights.png);
         height: 532px;
