@@ -665,4 +665,22 @@ nav ul li a {
         min-height: 100%;
 
     }
+
+    .parallax5 {
+        height: 532px;
+    }
+
+    .parallax1,
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax5 {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+}
 }
