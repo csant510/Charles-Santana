@@ -648,9 +648,16 @@ nav ul li a {
         min-height: 100%;
     }
 
+    .parallax2 {
+        display: none;
+    }
+
+    .parallax3 {
+        display: none;
+    }
+
     .parallax4 {
-        background-image: url(img/baybridgecrop.png);
-        min-height: 100%;
+        display: none;
 
     }
 
