@@ -576,6 +576,7 @@ nav ul li a {
 
 @media (max-width: 799px) {
     .about {
+        padding: 20px;
         flex-grow: 0;
         flex-shrink: 1;
     }
