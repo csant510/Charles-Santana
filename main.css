@@ -109,7 +109,7 @@ pre {
 }
 
 .parallax3 {
-    background: url(img/bart.jpg);
+    background: url(img/shoes.png);
     height: 532px;
 
 }
@@ -119,7 +119,7 @@ pre {
 }
 
 .parallax5 {
-    background: url(img/shoes.png);
+
     height: 532px;
 }
 
@@ -544,7 +544,7 @@ nav ul li a {
     }
 
     .parallax3 {
-        background: url(img/bart.jpg);
+        background: url(img/shoes.png);
         height: 532px;
 
     }
@@ -662,13 +662,10 @@ nav ul li a {
 
     }
 
-    .parallax5 {
-        min-height: 100%;
 
-    }
 
     .parallax5 {
-        height: 532px;
+        height: 432px;
     }
 
     .parallax1,
@@ -683,5 +680,4 @@ nav ul li a {
         background-attachment: scroll;
     }
 
-}
 }
